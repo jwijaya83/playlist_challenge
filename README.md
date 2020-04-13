@@ -32,7 +32,8 @@ Frontend:
 3. Name and save a playlist.
 4. List saved playlists. 
 5. Load saved playlists.
-6. Search or filtering for songs.
+6. Search/filtering for songs.
+7. Search for a particular entry/song criteria (ie: music length, by artist, by genre, etc) from the backend GraphQL API.
 
 Backend:
 1. Change the simple express REST API with GraphQL API.
