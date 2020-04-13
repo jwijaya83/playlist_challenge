@@ -1,0 +1,39 @@
+/* Add custom CSS if you'd like! */
+header {
+    position: sticky!important;
+    top: 0;
+}
+
+.navbar-brand svg {
+    max-height: 40px;
+    max-width: 40px;
+}
+
+.nav {
+    position: sticky;
+    top: 66px;
+    height: calc(100vh - 66px);
+}
+
+.nav > a.active {
+    font-weight: 600;
+    color: rgba(0, 0, 0, .85);
+}
+
+a.dropdown-item {
+    cursor: pointer;
+}
+
+.dropdown-toggle::after {
+    display: none!important;
+}
+
+.playlist {
+    flex-direction: column;
+    justify-content: end;
+    display: flex;
+}
+
+.add-to-playlist {
+    text-decoration: none;
+}
